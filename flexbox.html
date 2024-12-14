@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Practice</title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div style="display: flex;
+                flex-direction:row;
+                ">
+        <div style="
+                background-color:lightgreen;">
+           div1 text
+        </div>
+        <div style="
+                 background-color: yellow;">
+           div2 <p>new info</p>
+        </div>
+    </div>
+
+    <!..Example 2 ..>
+    <div style="margin-top: 30px;
+                display: flex;
+                flex-direction:row;
+                ">
+        
+        <div style="background-color: yellow;
+                    flex:1;">
+           flex 1<p>1</p>
+        </div>
+        <div style="background-color:rgb(144, 188, 238);
+                   width:100px">
+           div1<p>100px</p>
+        </div>
+        <div style="background-color:lightgreen;
+        flex:2 ;">
+        div3 <p>100px</p>
+    </div>
+    </div>
+
+    <!..Example 3 ..
+       How to align content center>
+    <div style="    margin-top: 30px;
+                    display: flex;
+                    flex-direction:row;
+                    height: 50px;
+                    border-style:solid;
+                    border-width:2px;
+                    border-color:grey;
+                    justify-content:center;
+                    ">
+        
+        <div style="background-color: yellow;
+                    width:100px;">
+                 100px
+        </div>
+        <div style="background-color:rgb(144, 188, 238);
+                   width:100px">
+                100px
+        </div>
+        <div style="background-color:lightgreen;
+                   width: 100px;">
+                100px
+    </div>
+    </div>
+
+    <!..Example 4..
+       How to align elements evenly space >
+    <div style="    margin-top: 30px;
+        display: flex;
+        flex-direction:row;
+        height: 50px;
+        border-style:solid;
+        border-width:2px;
+        border-color:grey;
+        justify-content:space-between;
+        ">
+
+    <div style="background-color: yellow;
+        width:100px;">
+    100px
+    </div>
+    <div style="background-color:rgb(144, 188, 238);
+    width:100px">
+    100px
+    </div>
+    <div style="background-color:lightgreen;
+    width: 100px;">
+    100px
+    </div>
+    </div>
+
+
+        <!..Example 5..
+        How to align elements vertically >
+    <div style="    margin-top: 30px;
+        display: flex;
+        flex-direction:row;
+        height: 50px;
+        border-style:solid;
+        border-width:2px;
+        border-color:grey;
+        justify-content:space-between;
+        align-items:center;
+        ">
+
+    <div style="background-color: yellow;
+        width:100px;">
+    100px
+    </div>
+    <div style="background-color:rgb(144, 188, 238);
+    width:100px">
+    100px
+    </div>
+    <div style="background-color:lightgreen;
+    width: 100px;">
+    100px
+    </div>
+    </div>
+</body>
+</html>

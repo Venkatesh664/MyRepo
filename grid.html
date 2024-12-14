@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+</head>
+<body style="padding-bottom: 500px;">
+      <!..Example 1 ..>
+    <div style="display:grid;
+        grid-template-columns:200px 200px">
+        <div style="background-color: aqua;">
+              div 1
+        </div>
+        <div style="background-color: bisque;">
+              div 2 
+        </div>
+    </div>
+
+    <!..Example 2 ..>
+    <div style="
+        margin-top:20px;
+        display:grid;
+        grid-template-columns:200px 200px 400px
+        ">
+        <div style="background-color: aqua;">
+              200px
+        </div>
+        <div style="background-color: bisque;">
+              200px
+        </div>
+        <div style="background-color: rgb(228, 70, 7);">
+            400px
+      </div>
+    </div>  
+    
+    <!..Example 3 ..>
+    <div style="
+      margin-top:20px;
+      display:grid;
+      grid-template-columns:100px 2fr">
+      <div style="background-color: aqua;">
+            200px
+      </div>
+      <div style="background-color: bisque;">
+            fr
+      </div>
+      
+    </div>
+
+    <!..Example 4 ..>
+    <div style="
+            margin-top:20px;
+            display:grid;
+            grid-template-columns:100px 1fr 2fr">
+            <div style="background-color: aqua;">
+                  200px
+            </div>
+            <div style="background-color: bisque;">
+                  1fr
+            </div>
+            <div style="background-color: rgb(236, 8, 8);">
+                  2fr
+            </div>
+    </div>
+
+    <!..Example 5..>
+    <div style="
+            margin-top:20px;
+            display:grid;
+            grid-template-columns:1fr 1fr 1fr;
+            column-gap:20px;
+            row-gap:40px;
+            ">
+            <div style="background-color: aqua;
+                         height:200px;">
+                  200px
+            </div>
+            <div style="background-color: bisque; 
+                        height:200px;">
+                  1fr
+            </div>
+            <div style="background-color: rgb(241, 95, 95);
+                         height: 200px;">
+                  2fr
+            </div>
+            <div style="background-color: rgb(241, 95, 95);
+                         height: 200px;">
+                  2fr
+            </div>
+            <div style="background-color: aqua;
+                         height:200px;">
+                  200px
+            </div>
+            <div style="background-color: bisque; 
+                        height:200px;">
+                  1fr
+            </div>
+    </div>
+
+</body>
+
+</html>

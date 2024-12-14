@@ -1,0 +1,123 @@
+HTML and CSS
+1.Buttons using both html & Css.
+2.Hovers,Transitions,Shadow
+3.Dev Tools and Box-Model:
+     -->Having space outside called Margin
+     -->Having space Inside called Padding 
+     -->Box model{setting up space for text around the sides}-Top, bottom, left, right
+                                  (OR)
+     -->It is alternate method for height and width of the text.
+
+
+4.Text Styles:
+     -->Specificity: class name selector has more priority then the element name selector
+                   EX: 
+     -->Span: If you want to edit specific art of the text in a paragraph uh can use span.
+
+
+
+5.Structure of HTML:
+     -->Inside head-tag content we can't see.
+     -->Inside Body-tag content only we can see on the webpage
+     -->Void elements: The elements doesn't any closing tag
+        EX: link, img, input, col ,hr.....{search in chrome for void elements in html} 
+     -->link: It has 2-attributes.
+               * rel{relation: It tells what kind of file}
+               * href{It tells wt kind of fie linking }
+
+
+6.Images and Text-Boxes:
+      -->image elements takes one attribute i.e. src(Source).
+          * Object fit{cover, contain....} & Object position{T,B,L,R} -Determines how img is displayed.
+      -->Text-Box: Example like we want to enter the data or search anything. It has several attributes..
+             * To get text box html ele is :<input>
+             * type: text, checkbox.....
+             * placeholder: what you wan to show inside that search box initially.  
+   
+
+7. CSS Display Property:
+      -->Html contains 3 main elements:
+       1. Block elements: It takes up entire line.
+           Ex: paragraph element it will takes entire line to minimise this we can use width in css.
+       2. Inline-Block element: It takes as much space is needed.
+           Ex: image ele and input ele......
+       3. Inline element: Which appears within line of text
+           Ex: <strong> element
+      -->By using CSS Display property we easily switch between block and inline-block
+
+
+8. <div>-element:
+      -->div: div element stands for the division. In easy way to understand div is just a box.
+         *div is a Block element like paragraph element it takes entire line.
+      -->Why div is so useful??
+         *Key feature is it can contain any other elements inside in it as well as other div's also. 
+              Ex: images, para,,,
+      --> Div's are meant to be containers. These containers allows you to group all elements.
+
+    *** In order to build complex real time websites we need containers to group our elements together.
+      --> If set width for div ele.. the block ele takes that width only instead of taking entire page width.
+
+
+9. Nested Layouts Technique:
+      -->There 2 types of layouts those are Horizontal layout and vertical layout.
+      -->Putting as many div container in one-in. 
+
+10. Grid
+      -->Grid is a layout that has columns and rows. Gird maintains alignment much better 
+          Ex: 2 by 3 grid i.e it has 2 rows and 3 columns.
+      --> For grid declaration we have mention 2 attributes they are,
+              1. display: grid;
+              2. grid-template-columns: 100px, 100px; {it displays width of the columns here 2 col's are
+                                                       formed with 100 and 100px}
+                                     (OR)
+                 grid-template-columns:100px, 1fr;{it gives 1col with 100px and 2nd col takes entire free            
+                                                      space}  
+      -->Grid is rigid layout and flex is flexible layout.
+
+11.Flex-Box
+      --> Another way of create Layouts
+      --> For flex declaration we have mention 2 attributes they are  
+            1.display: flex
+            2.flex-direction:row, col  
+                                                           
+            3. justify-content: contains 3 values used to align the elements horizontally.
+                     * start  -- Horizontally starting of the page
+                     * center -- Horizontally center of the page
+                     * end    -- Horizontally end of the page
+                     * space-between --Horizontally leaves space
+
+            4.align-items:Used to set the elements vertically top, bottom, center, stretch
+
+                     * start  -- Vertically top of the page
+                     * center -- Vertically center of the page
+                     * end    --Vertically end of the page
+                     * stretch --Vertically fits and leaves space
+
+   max-width: This property says width less than the 300px but as soon as it grows over 300px 
+               we are going to limit  it to 300px 
+
+
+
+
+
+12. Position:
+       1)
+      -->position-fixed: The elements are placed in the browser window
+      -->position-absolute: The elements are placed on the page
+      -->position-relative: 
+       2)
+          z-index: Defines which elements appear in front and which elements appear behind.
+
+      3) When ever a position absolute is inside a position fixed element,
+its going to be placed a relative to position fixed element.
+     
+   Main conclusions: 
+      1. when the absolute position placed inside the relative position then the absolute position displayed on the element not on the page. And relative behaves as normal.
+
+
+
+
+
+
+
+ 
